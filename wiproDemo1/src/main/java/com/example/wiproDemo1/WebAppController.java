@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class WebAppController {
 	
-	@RequestMapping("/home")
+	@RequestMapping("/home" )
 	public String home() {
 		return "Home";
 	}
