@@ -1,9 +1,9 @@
 package com.example.wiproDemo1;
 
 public class Employee {
-	public String name;
-	public int id;
-	public int sal;
+	private String name;
+	private int id;
+	private int sal;
 	public String getName() {
 		return name;
 	}
