@@ -6,6 +6,8 @@
    vars:
      tomcat_port: 8282
    tasks:
+    - name : upadte source list
+      command: apt-get update
     - name: Update repos
       apt:
         name: "*"
